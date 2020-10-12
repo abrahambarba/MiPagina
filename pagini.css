@@ -1,0 +1,106 @@
+*{ /*aplicará a todo lo que sea html*/
+    margin: 0; /*margen*/
+    padding: 0;
+}
+
+html, body{
+    left: 0;
+    top: 0;
+    height: 100%; /*alto*/
+    width: 100%; /*ancho*/
+    background-color: grey;
+}
+
+/* CONTENEDORES*/
+.grande{
+    width: 100%;
+    display: flex;
+}
+
+/* ------ Div izquierda*/
+.izquierda{
+    width: 100%;
+}
+/** 1er Contenedor **/
+.presentacion{ /* AQUÍ están los bordes negros para IDENTIFICAR los contenedores */
+    position: relative;
+    height: 50%;
+    width: 99%;
+    border-style: solid;
+}
+
+/** 2do Contenedor **/ 
+.habilidades{
+    position: relative;
+    height: 100%;
+    width: 99%;
+    border-style: solid;
+}
+
+/* ------ Div derecha*/
+.derecha{
+    width: 100%;
+}
+/* 3er contenedor */
+.deco{ 
+    position: relative;
+    height: 50%;
+    width: 99%;
+    border-style: solid;
+
+    display: inline-block;
+    text-align: center;
+
+}
+
+/** 4to contenedor **/
+.datos{
+    position: relative;
+    height: 50%;
+    width: 99%;
+    border-style: solid;
+
+}
+
+.presentacion > div{ /** esto para los cuadros de colores, tamaño y posición **/
+    position: absolute;
+    margin-top: 5%;
+    margin-left: 4.5%;
+    width: 70%;
+    height: 35%;
+}
+.habilidades > div{ 
+    position: relative;
+    margin-top: 4.5%;
+    margin-left: 5%;
+    width: 70%;
+    height: 93%;
+}
+.deco > div{ 
+    position: relative;
+    margin-top: 4.5%;
+    margin-left: 5%;
+    width: 90%;
+    height: 85%;
+}
+.datos > div{ 
+    position: relative;
+    margin-top: 4.5%;
+    margin-left: 5%;
+    width: 70%;
+    height: 80%;
+}
+
+
+
+
+
+.borde1{
+    border-style: solid;
+}   
+.verde{
+    background: darkgreen;
+}
+.rojo{
+    background: darkorange;
+}
